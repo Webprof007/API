@@ -1,0 +1,29 @@
+{
+  "name": "pdfapi",
+  "version": "1.0.0",
+  "description": "This is API for processing fillable PDF documents with data from HTML-form",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "install": "node-gyp rebuild"
+  },
+  "author": "PiratiK",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "formidable": "^1.2.1",
+    "mongodb": "^3.1.10",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0",
+    "mysql-utilities": "^1.0.13",
+    "nan": "^2.11.1",
+    "node-gyp": "^3.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "port" : 3000,
+    "db_name" : "pdfapi_db",
+    "db_tmp_table" : "document_template",
+    "db_fill_table" : "filled_document",
+
+    "template_folder" : "/templates/pdf/",
+    "filled_doc_folder" : "/upload/usersPdf/",
+
+    "upload_file_field_name": "tmp",
+    "upload_file_description_name": "desc",
+    "upload_file_template_name": "tmpname",
+    "field_template_id_name": "template_id",
+    "field_user_id_name": "user_id",
+
+    "save_template": "/createTemplateData",
+    "get_single_template": "/getOne",
+    "get_template_list": "/getList",
+    "create_pdf_with_user_data": "/uploadData",
+    "get_user_filled_document": "/getDocument",
+    "delete_template": "/delTemp",
+    "delete_user_filled_pdf": "/delUsrPdf",
+    "update_template": "/updTemp",
+    "update_user_filled_pdf": "/updUsrPdf"
+}
